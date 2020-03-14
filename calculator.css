@@ -3,17 +3,27 @@
     height: 100px;
     width: 412px;
     text-align: right;
-    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: #E3E3E3;
 }
 
-#buttonGrid {
+#math-log {
+    font-size: 25px;
+}
+
+#output {
+    font-size: 50px;
+}
+
+#number-grid {
     margin: auto;
     width: 416px;
     font-size: 0px;
 }
 
-#backspace {
+#button-backspace {
     width: 204px;
 }
 
